@@ -3,7 +3,7 @@ flickr-mosaic-php
 
 A PHP implementation of creating mosaics from pics downloaded from my Flickr
 account (http://www.flickr.com/photos/meetrajesh/). See examples
-[here](http://www.flickr.com/photos/krazydad/collections/72157622192771853/)
+[here](http://www.flickr.com/photos/krazydad/sets/874417/)
 
 ## Motivation
 
