@@ -3,8 +3,7 @@ flickr-mosaic-php
 
 A PHP implementation of mosaic creation of pics from my Flickr account (http://www.flickr.com/photos/meetrajesh/)
 
-Motivation
-==========
+## Motivation
 
 Motivated by my co-worker Eric Fung who is working on a [Ruby
 implementation](https://github.com/efung/flickr-hacks-ruby) of Bumgardner
@@ -15,6 +14,8 @@ him that he had used the scripts that could be found in his book called
 [Flickr Hacks](http://shop.oreilly.com/product/9780596102456.do) by Paul
 Bausch and Jim Bumgardner. The (mostly Perl) examples are downloadable from
 O'Reilly [here](http://examples.oreilly.com/9780596102456/).
+
+## Goal
 
 I want to build my own mosaics as well, so I'm porting all these scripts to
 PHP to help me interact with the Flickr API, to download thumbnails of photos
