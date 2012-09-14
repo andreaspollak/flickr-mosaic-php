@@ -1,7 +1,9 @@
 flickr-mosaic-php
 =================
 
-A PHP implementation of mosaic creation of pics from my Flickr account (http://www.flickr.com/photos/meetrajesh/)
+A PHP implementation of creating mosaics from pics downloaded from my Flickr
+account (http://www.flickr.com/photos/meetrajesh/). See examples
+[here](http://www.flickr.com/photos/krazydad/collections/72157622192771853/)
 
 ## Motivation
 
@@ -20,3 +22,23 @@ O'Reilly [here](http://examples.oreilly.com/9780596102456/).
 I want to build my own mosaics as well, so I'm porting all these scripts to
 PHP to help me interact with the Flickr API, to download thumbnails of photos
 I've uploaded there, and to generate mosaics of my own pictures.
+
+## Requirements
+
+PHP 5.3 or above
+
+## How To
+
+The scripts here are written in PHP since it is my language of comfort.
+
+Steps to run these scripts
+
+* Clone this repo:
+git clone git://github.com/meetrajesh/flickr-mosaic-php.git
+
+* Edit api_key.php and insert your flickr api key. You can get your own
+app key from
+[here](http://www.flickr.com/services/apps/create/noncommercial/?)
+
+* Execute mosaic.php from the command line: php -f mosaic.php
+
