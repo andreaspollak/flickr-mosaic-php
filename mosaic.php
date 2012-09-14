@@ -2,12 +2,12 @@
 
 require dirname(__FILE__) . '/api_key.php';
 
-$response = flickr_api::get_all_photos_by_username('meetrajesh');
+$response = flickr_api::download_all_photos_by_username('meetrajesh');
 print_r($response);
 
 class flickr_api {
 
-    public static function get_all_photos_by_username($username) {
+    public static function download_all_photos_by_username($username) {
 
         $params['user_id'] = self::get_user_id_from_username($username);
         $params['per_page'] = '10';
@@ -16,7 +16,7 @@ class flickr_api {
 
         $output_dir = __DIR__ . '/output';
         if (!is_dir($output_dir)) {
-            mkdir($output_dir);
+            mkdir($output_dir, 0755);
         }
 
         while (++$params['page'] == 1 || ($params['page'] < $result['pages'] && $num_photos < $result['total'])) {

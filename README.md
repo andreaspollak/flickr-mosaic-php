@@ -37,7 +37,7 @@ Steps to run these scripts
 git clone git://github.com/meetrajesh/flickr-mosaic-php.git
 
 * Edit api_key.php and insert your flickr api key. You can get your own
-app key from
+api key from
 [here](http://www.flickr.com/services/apps/create/noncommercial/?).
 
 * Execute mosaic.php from the command line: php -f mosaic.php
